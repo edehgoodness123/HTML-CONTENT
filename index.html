@@ -5,9 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML checkpoint</title>
-</head>
+    <link rel="stylesheet" href="./style.css">
+    <!-- internal styling -- >
+        <!-- <style>
+          li {
+            font-size: 30px;
+            color: black;
+          }
+    
+          p {
+            font-style: italic;
+          }
+          </style> -->
+        </head>
 <body>
-    <div>
+<!-- css selectors class(.), id(#), name or type (p, h2, img)-->
+<header>
+    <nav class="myNav">
+        <ul>
+            <li>
+                <!--Inline styling -->
+                <div>
         <nav>
             <ul>
                 <li>
@@ -29,19 +47,22 @@
         </nav>  
     </div>
     <nav>
-        <ol>
+        <ol class="myClass">
             <li>life</li>
             <li>is</li>
             <li>good</li>
                <ol>
                 <li>she is good</li>
+
                 <li>he is good</li>
         </ol>
     </nav>
     <div>
-        <h1>MAC workshop</h1>
-        <img src="./Pizza.jpeg" alt="Pizza"/>
+        <h1>PIZZA</h1>
+        <img id="myImaage" src="./Pizza.jpeg" alt="Pizza"/>
         <br>
+        <h1 id="blue-bordered">laptop is good</h1>
+           
 
 <audio controls>
     <source src="brown skin.mp3" type="audio/mpeg"/>
@@ -71,8 +92,9 @@
     </table>
     </div>
     <div>
+        <section class="contact">
         <h2>Sign up</h2>
-        <form>
+         <form>
             <label>Full Name</label>
             <input type="text" name="Full Name" placeholder="Enter your name"/>
             <br>
@@ -83,13 +105,20 @@
             <input type="phone number" name="Phone number" placeholder="080**"/>
             <br>
             <label>State of origin</label>
+            <input type="state" name="state" placeholder="enter your state"
+            <br>
+
             <select>
                 <option value="">Lagos</option>
                 <option value="">Ogun</option>
                 <option value="">Edo</option>
             </select>
-            <button>Please sign out</button>
+            <br>
+
+            <button class="btn">Please sign out</button>
+            <br>
         </form> 
+    </section>
     </div> 
 </body>
 </html>

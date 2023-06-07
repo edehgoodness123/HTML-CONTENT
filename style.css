@@ -1,0 +1,69 @@
+.myNav {
+    position: relative;
+    width: 100%;
+    background-color: blueviolet;
+    height: 60px;
+    line-height: 5px;
+    
+}
+h1{
+    color: fuchsia;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: initial;
+   font-style: italic;
+   font-weight: bolder;
+}
+.myNav ul {
+    list-style: 0;
+    padding: 20px;
+    margin: 10;
+    color: darkgreen;
+    
+
+}
+
+.myNav li {
+display: inline;
+padding: 2%;
+color: darkgreen;
+}
+.myNav ol {
+    display: inline;
+padding: 2%;
+color: aqua;
+}
+#blue-bordered {
+    border: 1px dashed blue;
+}
+#myImage {
+    width: 50%;
+}
+.contact li{
+    margin: 100%;
+    padding: 16px;
+}
+.contact > input, label, type {
+    display: block;
+}
+input{
+    width: 100%;
+    padding: 50px;
+    background-color: green;
+    color: black;
+    border: dashed;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+.btn {
+    padding: 50px;
+    width: 100%;
+    background-color: blueviolet;
+    border: dashed;
+    color: aqua;
+    cursor: pointer;
+}
+.div:hover {
+    background-color: green;
+}
+
+
